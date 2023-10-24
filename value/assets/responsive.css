@@ -1,0 +1,106 @@
+@media all and (max-width: 1400px){
+    .signum_title h2 { 
+        font-size: 90px; 
+    }
+    .signum_title p { 
+        font-size: 20px; 
+    }
+}
+
+
+@media all and (max-width: 1200px){
+    .signum_list li button { 
+        font-size: 50px; 
+    } 
+}
+
+@media all and (max-width: 991px){
+    .signum_title h2 { 
+        font-size: 64px; 
+        letter-spacing: 3.84px; 
+    }
+    .signum_title p {
+        font-size: 16px;
+        width: 90% !important;
+        margin-bottom: 0 !important;
+    }
+    
+}
+
+@media all and (min-width: 767px){
+    .m_none{
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 767px){
+    .m_none{
+        display: none;
+    }
+    .d_none{
+        display: block;
+    } 
+    .signum_list li button{  
+        padding: 15px 0;
+    }
+    .signum_list li { 
+        flex: 0 0 100%; 
+    }
+    .signum_list li h3 {
+        font-size: 41px;
+    }
+    .main_content h2 { 
+        font-size: 41px; 
+    }
+    .main_content > p { 
+        font-size: 12px; 
+    }
+    .content_p p { 
+        font-size: 14px; 
+    }
+    .content_btn p { 
+        font-size: 12px; 
+        line-height: 16px; 
+        max-width: 303px; 
+    }
+    .content_btn button {
+        max-width: 216px; 
+        font-size: 20px; 
+    }
+    .content_btn { 
+        margin-bottom: 45px;
+    }
+    .content_area { 
+        margin: 90px auto 0 auto; 
+    }
+    .main_form h2 { 
+        font-size: 55px; 
+    }
+    .form_group label { 
+        font-size: 20px; 
+    }
+    .form_group input { 
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .thank_you_list h4 { 
+        padding: 12px 27px; 
+        font-size: 20px; 
+    }
+    .thank_you_list ul li p { 
+        font-size: 18px; 
+        width: 60px;
+    }
+    .thank_you_list ul li b { 
+        font-size: 18px; 
+    }
+    .thank_you_list ul li { 
+        align-items: first baseline; 
+    }
+    .thankyou_btn button { 
+        font-size: 25px; 
+    }
+    .thank_you_list { 
+        width: 88%; 
+    }
+}
